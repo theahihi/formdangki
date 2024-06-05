@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Đăng ký hoá học trung tâm HVNH</title>
+    <link rel="stylesheet" href="./cssdangky.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Đăng ký khoá học phát triển web</h1>
+      </header>
+      <main >
+        <section>
+          <h2 class="tieude">Thông tin cá nhân</h2>
+          <label for="name">Họ và Tên: </label>
+          <input type="text" id="name" name="name" placeholder="Nhập họ tên" required />
+          <label for="email"> Email:</label>
+          <input type="text" id="email" name="email" placeholder="Nhập email" required />
+          <label for="sdt">Số điện thoại </label>
+          <input type="text" id="sdt" name="sdt" placeholder="Nhập số điện thoại" required />
+        </section>
+  
+        <section>
+          <p></p>
+         <hr>
+            <h2 class="tieude">Thông tin khoá học</h2>
+            <form>
+                <label for="Khoá học"> Khoá học: </label>
+                <select name="course" id="course">
+                  <option value="" disabled selected hidden>Chọn khoá học</option>
+                  <option value="web- design">Thiết kế web</option>
+                  <option value="web-development">Phát triển web</option>
+                  <option value="web-seo">Phát triển web với API.net</option>
+                </select>
+                <label for="ngay">Ngày bắt đầu:</label>
+                <input type="date" id="date" name="date" />
+                <label for="time">Thời gian: </label>
+                <select name="time" id="time">
+                  <option value="" disabled selected hidden>Chọn thời gian học</option>
+                  <option value="morning">Sáng</option>
+                  <option value="afternoon">Chiều</option>
+                  <option value="evening">Tối</option>
+                </select>
+            </form>
+        </section>
+        <p></p>
+        <hr>
+        <h2 class="tieude">Phương thức thanh toán</h2>
+        <form>
+          <label for="payment">Chọn phương thức thanh toán: </label>
+          <select name="payment" id="payment">
+            <option value="" disabled selected hidden>Chọn phương thức thanh toán</option>
+              <option value="thetindung">Thẻ tín dụng</option>
+              <option value="tienmat">Tiền mặt</option>
+            </select>
+  
+        </form>
+  
+        <a href="./webdangkithanhcong.html"><input type="submit" value="Đăng ký "></a>
+      </main>
+      <footer>
+        <p style=> &copy; Trung tâm tin học Học Viện Ngân Hàng  </p>
+      </footer>
+    </body>
+    </div>
+</html>
